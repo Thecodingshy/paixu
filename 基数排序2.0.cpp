@@ -9,7 +9,7 @@ int arr[MAXN];
 int size;
 int getdigit(int x, int d) 
 {
-	int a[] = { 1,1,10,100,1e3,1e4,1e5,1e6,1e7,1e8,1e9 }; //因为待排数据最⼤数据位数  
+	int a[] = { 1,1,10,100,1e3,1e4,1e5,1e6,1e7,1e8,1e9,1e10,1e11 }; //因为待排数据最⼤数据位数  
 	return ((x / a[d]) % 10);
 }
 void msdradix_sort(int begin, int end, int d)
